@@ -11,13 +11,15 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Setup MSBuild path
         uses: microsoft/setup-msbuild@v1.0.2
+        with:
+            vs-version: '[16.4,17.5)'
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1.0.5
@@ -35,7 +37,7 @@ jobs:
           path: '/published/**'
 
   deploy:
-    runs-on: windows-2019
+    runs-on: windows-latest
     needs: build
     environment:
       name: 'Production'
