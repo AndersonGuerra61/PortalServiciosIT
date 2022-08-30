@@ -1,0 +1,52 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+div.content {
+    width: 100%; 
+    height:100%; 
+    text-align:center;
+    /*overflow:auto;*/
+            
+}
+div.izquierda, div.derecha {
+    float: left;
+    padding: 0px;    
+    text-align:center;            
+}
+#ctl00_ctl00_ASPxSplitter1_1_CC{
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+div.izquierda {
+         
+            
+    width: 50%;   
+    height:100%;
+    text-align:left;        
+    /*overflow-y: scroll;*/
+    overflow-x: scroll;
+             
+            
+            
+}
+div.derecha {
+    margin-left: 5%;
+    width: 45%;   
+    height:100%;
+    text-align:left;
+    overflow-x: scroll;
+    /*overflow:auto;*/
+}
+div.encabezado {    
+    text-align:left;
+    font-size:small;
+    font-weight:bold;
+}
+div.formato {
+    font-size:small;
+    font-weight:bold;
+}
+div.pie {    
+    text-align:right;
+}

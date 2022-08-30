@@ -1,0 +1,57 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    font-weight: bold !important;
+}
+
+.container {
+    padding-bottom: 20px;
+}
+
+.footerPane {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.dxmLite_BlackGlass, .footerPane {
+    background-color: darkgray !important;
+}
+
+/**/ .dxbButton_BlackGlass,
+.headerMenu {
+    background: lightskyblue !important;
+}
+
+div.content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*overflow:auto;*/
+}
+
+div.encabezado {
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+}
+
+div.pie {
+    text-align: right;
+}
+
+em,
+.dxeErrorCellSys,
+.dxeRequiredMark_BlackGlass {
+    color: red;
+}
+
+.footerPane {
+    margin: 0;
+}
